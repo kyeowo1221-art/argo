@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-	namespace: d14
   name: demo-nginx
+  namespace: d14
 spec:
   selector:
     app: demo-nginx
